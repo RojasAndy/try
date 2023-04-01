@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+a{
+	background-color: yellow;
+	color: blue;
+	border: 2px solid black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block; 
+}
+
+h3{
+	font-size: 50px;
+	font-weight: 40px;
+	font-family: Verdana, sans-serif;
+	background-image: radial-gradient(circle, #0000ff, #5030a6);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+input[type=number]{
+	background-color: #3CBC8D;
+	color: black;
+	border: 2px solid blue;
+	border-radius: 4px;
+}
+
+input[type=text]{
+	background-color: #3CBC8D;
+	color: black;
+	border: 2px solid blue;
+	border-radius: 4px;
+}
+
+input[type=submit]{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding: 5px 22px;
+	border-radius: 8px;
+	background-color: yellow;
+	color: black;
+}
+
+input[type=reset]{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding: 5px 22px;
+	border-radius: 8px;
+	background-color: yellow;
+	color: black;
+}
+
+label{
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+	color: blue;
+}
+
+select {
+    width:16em;
+    height:2.3em;
+	background:#3CBC8D;
+}
+
+b{
+    font-weight: bold;
+	font-family: Verdana, sans-serif;
+	color: blue;
+}
+
+#emple {
+	font-family: Verdana, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#emple td, #emple th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#emple tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+#emple tr:hover {
+	background-color:blue;
+}
+
+#emple th{
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align: left;
+	background-color: blue;
+	color:white;
+}
